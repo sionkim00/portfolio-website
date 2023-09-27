@@ -19,30 +19,30 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+        Hello! I'm a <span className="font-medium">Computer Science</span> major
+        at Texas Christian University with a deep-rooted passion for technology
+        and innovation. After immersing myself in the world of programming, I've
+        honed my skills in a core stack that includes{" "}
+        <span className="underline">
+          Data Engineering, iOS development, and Web Development
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        . The allure of coding for me lies in its intricate problem-solving
+        nature. There's an unparalleled satisfaction in crafting a piece of code
+        and watching it come to life, solving real-world challenges.
       </p>
-
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+      <p className="mb-3">
+        As I approach the culmination of my academic journey, I'm eager to
+        translate my theoretical knowledge into practical experience. With that
+        goal in mind, I'm actively seeking{" "}
+        <span className="font-medium">summer internships for 2024</span> where I
+        can contribute, learn, and grow as a budding software developer.
+      </p>
+      <p className="mb-3">
+        Outside the realm of coding, I cherish moments of relaxation and
+        exploration. Whether it's diving into a gripping novel, trekking through
+        nature trails, or jamming to my favorite tunes, I believe in balancing
+        work with leisure. Continuous learning is a mantra I live by, and I'm
+        always on the lookout for new skills and knowledge to acquire.
       </p>
     </motion.section>
   );

@@ -1,10 +1,8 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+
+import cryptoImg from "@/public/crypto_app_preview.png";
+import licenseImg from "@/public/license.png";
 
 export const links = [
   {
@@ -35,73 +33,69 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+    title: "Data Engineering Intern",
+    location: "Penta Systems Technology Inc. (Seoul, KR)",
+    description: [
+      "Engineered an end-to-end machine learning solution for license plate recognition utilizing Dataiku",
+      "Crafted a web scraping application using Playwright, managed workflows with Apache Airflow, and integrated data storage with MySQL",
+      "Led internal research on Computer Vision and stayed abreast of cutting-edge deep learning advancements",
+    ],
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023 May - Aug",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+    title: "Audio Visual Specialist",
+    location: "Texas Christian University (Fort Worth, TX)",
+    description: [
+      "Managed and maintained A/V systems across diverse venues, offering technical assistance during conferences and university events",
+      "Upheld A/V standards and protocols to ensure event security, while fostering a professional and welcoming atmosphere for all attendees",
+    ],
+    icon: React.createElement(CgWorkAlt),
+    date: "2022 Aug - Current",
+  },
+  {
+    title: "KATUSA (Korean Augmentation to the United States Army)",
+    location: "19th Expeditionary Sustainment Command (Camp Henry)",
+    description: [
+      "Played a pivotal role in intelligence gathering and analysis during three ROK-U.S. joint military exercises, directly aiding in the achievement of mission goals",
+      "Bridged communication gaps between U.S. and South Korean teams by adeptly translating and interpreting both classified and unclassified documents and communications",
+    ],
+    icon: React.createElement(CgWorkAlt),
+    date: "2020 Jun - 2021 Dec",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Crypto Portfolio App",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Created a user-friendly crypto portfolio app using React Native, allowing users to seamlessly monitor and manage their cryptocurrency holdings.",
+    tags: ["Javascript", "React Native", "REST API"],
+    imageUrl: cryptoImg,
   },
   {
-    title: "rmtDev",
+    title: "License Plate Recognition",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Engineered an automated system for license plate identification using Dataiku, Optical Character Recognition, and computer vision techniques.",
+    tags: ["Computer Vision", "Dataiku", "Dataiku", "Python", "SQL"],
+    imageUrl: licenseImg,
   },
 ] as const;
 
 export const skillsData = [
   "HTML",
   "CSS",
-  "JavaScript",
-  "TypeScript",
   "React",
+  "React Native",
   "Next.js",
   "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
+  "C/C++",
+  "JavaScript",
+  "TypeScript",
   "Python",
-  "Django",
-  "Framer Motion",
+  "Swift",
+  "SQL",
+  "Git",
+  "Docker",
+  "AWS",
 ] as const;
